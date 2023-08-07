@@ -14,7 +14,7 @@ start-axon:
 	docker-compose up axon-server
 
 start-arango:
-	docker-compose up axon-server
+	docker-compose up arangodb
 
 start-admin:
 	docker-compose up stapi-admin
